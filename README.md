@@ -26,3 +26,7 @@ Higher-cost models are often trained to perform development in a more structured
         4. Begin execution
         5. Execute tests and validate
         6. Perform PR review
+
+# Getting Started
+1. Copy the files in the '.github' and 'docs' folder to your project.
+2. Begin using the prompts in-order to organize the project and begin development
