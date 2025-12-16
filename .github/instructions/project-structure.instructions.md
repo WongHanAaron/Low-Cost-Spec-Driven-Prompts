@@ -1,7 +1,7 @@
 ---
 applyTo: '**'
 ---
-# Instructions
+# Project Structure Instructions
 When adding files or new projects follow these project structuring rules.
 For an individual deployable component, the following structure should be followed:
 - For source code, place the source code in a folder like this: `<component-name>/src/*`

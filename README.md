@@ -15,11 +15,11 @@ Higher-cost models are often trained to perform development in a more structured
 
 # Development Flow
 1. Project Definition Overview
-2. Release Version Definition and Documentation
-3. Release Version Development Execution:
+2. Release Version Definition
+3. Release Version Development:
     1. High-Level Component / Dataflow Design
     2. Sprint Planning
-    3. Sprint Development Execution:
+    3. Sprint Development:
         1. Plan the acceptance criteria
         2. Plan the high-level design for this sprint
         3. Plan the tasks for this sprint
