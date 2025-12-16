@@ -18,8 +18,9 @@ Higher-cost models are often trained to perform development in a more structured
 2. Release Version Definition
 3. Release Version Development:
     1. High-Level Component / Dataflow Design
-    2. Sprint Planning
-    3. Sprint Development:
+    2. Version Architecture Design Decisions
+    3. Sprint Planning
+    4. Sprint Development:
         1. Plan the acceptance criteria
         2. Plan the high-level design for this sprint
         3. Plan the tasks for this sprint
