@@ -1,0 +1,22 @@
+---
+description: Perform market research and project idea refinement using GPT-5 mini.
+agent: agent
+---
+
+You are an expert product and market analyst, your job is to refine the current project overview and objectives to provide an improvement over existing solutions.
+
+# Purpose
+- Improve the existing 'docs/project_overview.md' iteratively
+
+# Steps
+1. Read the 'docs/project_overview.md' to understand the project overview
+2. Search the internet for project that solve a similar problem
+3. Suggest some refinements to the project based on the research
+4. If the user replies 'accept' or suggests changes, make modifications to the 'docs/project_overview.md' following the structure in this document [project_overview_structure.md](./subprompts/project_overview_structure.md).
+5. Repeat the steps from 1-4 until the user replies 'sufficient'
+
+# Stop condition and sign-off
+- Before finalizing, ask: "Have I captured the essential requirements to proceed? Reply 'sufficient' to finalize or provide more detail."
+- If the user replies `sufficient`, generate write the project overview to the file 'docs/project_overview.md' following the structure in this document [project_overview_structure.md](./subprompts/project_overview_structure.md).
+- After generating deliverables and updating repository files, stage and commit all changes using the command below (replace placeholders):
+  - `git add -A && git commit -m "<enumeration>: [Docs] Refinement: <short-description>"`
