@@ -5,6 +5,8 @@
 
 - Keep each section concise: the Project Brief should be 3–5 sentences; other sections primarily one-line bullets.
 - End with a 3-item recommended next-steps checklist (e.g., stakeholder interviews, prototype, success-metric dashboard).
+- Do NOT include any architecture decisions or pseudo code or MVPs
+- Do NOT include any details about implementation or technologies to be used
 
 # Deliverable formatting rules
 - Bold only section titles; use short bullets and numbered lists otherwise.
